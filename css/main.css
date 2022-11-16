@@ -64,7 +64,7 @@ a {
 .container {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1276px;
+    max-width: 1320px;
     margin: 0 auto;
     padding-right: 20px;
     padding-left: 20px;
@@ -85,7 +85,7 @@ a {
 .head_w_l {
     display: flex;
     align-items: center;
-
+    
 }
 
 .head_w_img {
@@ -113,4 +113,42 @@ a {
     letter-spacing: 0.923077px;
     text-transform: uppercase;
     color: #83888F;
+}
+
+/* hero */
+
+.main {
+}
+
+.hero {
+}
+.hero1 {
+}
+
+.hero_wrap {
+    background-image: url(./../img/fon.png);
+    width: 1280px;
+    padding: 117px 702px 117px 85px;
+    border-radius: 10px;
+}
+
+.hero_head {
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    width: 493px;
+    margin-bottom: 32px;
+}
+
+.hero_head_t {
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    width: 445px;
+    margin-bottom: 56px;
+}
+
+.hero_w_link {
 }
