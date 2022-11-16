@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: url('./../fonts/fraunces900.woff2') format('woff2'),
+    url('./../fonts/fraunces900.woff') format('woff'); 
+}
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    src: url('./../fonts/barlow700.woff2') format('woff2'),
+    url('./../fonts/barlow700.woff') format('woff'); 
+}
+
+*{
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+}
+
+ul, ol {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: flex;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    font-family: 'Fraunces', serif;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1276px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* header */
+
+.head {
+}
+
+.head1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head_w_l {
+}
+.head_logo_t {
+}
+.head_w_r {
+}
+.head_w_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head_w_item {
+}
+.head_w_link {
+}
