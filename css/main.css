@@ -151,4 +151,16 @@ a {
 }
 
 .hero_w_link {
+    display: flex;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    background: #0E8784;
+    border-radius: 6px;
+    width: 217px;
+    height: 56px;
+}
+
+.hero_w_link_t {
 }
