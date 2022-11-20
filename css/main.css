@@ -169,17 +169,24 @@ a {
 
 .type {
 }
+
 .type1 {
     display: flex;
     justify-content: center;
     
 }
+
 .type_wrap {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 1111px;
+    background-image: url(./../img/ourc.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-bottom: 200px;
 }
+
 .type_w_list {
     display: flex;
     align-items: center;
