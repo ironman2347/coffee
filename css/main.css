@@ -173,7 +173,6 @@ a {
 .type1 {
     display: flex;
     justify-content: center;
-    
 }
 
 .type_wrap {
@@ -213,4 +212,27 @@ a {
     line-height: 26px;
     text-align: center;
     color: #333D4B;
+}
+
+/* choose */
+
+.choose {
+}
+.choose1 {
+}
+.choose_wrap {
+}
+.choose_w_head {
+}
+.choose_w_text {
+}
+.choose_w_list {
+}
+.choose_w_item {
+}
+.choose_w_i_img {
+}
+.choose_w_i_head {
+}
+.choose_w_i_text {
 }
